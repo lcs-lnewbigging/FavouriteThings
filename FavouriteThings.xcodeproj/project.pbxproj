@@ -11,6 +11,10 @@
 		FE2241032720611700EC7D77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2241022720611700EC7D77 /* ContentView.swift */; };
 		FE2241052720611B00EC7D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2241042720611B00EC7D77 /* Assets.xcassets */; };
 		FE2241082720611B00EC7D77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2241072720611B00EC7D77 /* Preview Assets.xcassets */; };
+		FE22410F2720652900EC7D77 /* SecondFavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22410E2720652900EC7D77 /* SecondFavouriteView.swift */; };
+		FE22411127222D4B00EC7D77 /* FavouriteThingsThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22411027222D4B00EC7D77 /* FavouriteThingsThree.swift */; };
+		FE2241132722357700EC7D77 /* FavouriteThingsFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2241122722357700EC7D77 /* FavouriteThingsFour.swift */; };
+		FE2241152722363200EC7D77 /* FavouriteThingsFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2241142722363200EC7D77 /* FavouriteThingsFive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		FE2241022720611700EC7D77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE2241042720611B00EC7D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2241072720611B00EC7D77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE22410E2720652900EC7D77 /* SecondFavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFavouriteView.swift; sourceTree = "<group>"; };
+		FE22411027222D4B00EC7D77 /* FavouriteThingsThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsThree.swift; sourceTree = "<group>"; };
+		FE2241122722357700EC7D77 /* FavouriteThingsFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsFour.swift; sourceTree = "<group>"; };
+		FE2241142722363200EC7D77 /* FavouriteThingsFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsFive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				FE2241022720611700EC7D77 /* ContentView.swift */,
 				FE2241042720611B00EC7D77 /* Assets.xcassets */,
 				FE2241062720611B00EC7D77 /* Preview Content */,
+				FE22410E2720652900EC7D77 /* SecondFavouriteView.swift */,
+				FE22411027222D4B00EC7D77 /* FavouriteThingsThree.swift */,
+				FE2241122722357700EC7D77 /* FavouriteThingsFour.swift */,
+				FE2241142722363200EC7D77 /* FavouriteThingsFive.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE2241152722363200EC7D77 /* FavouriteThingsFive.swift in Sources */,
+				FE22410F2720652900EC7D77 /* SecondFavouriteView.swift in Sources */,
 				FE2241032720611700EC7D77 /* ContentView.swift in Sources */,
+				FE2241132722357700EC7D77 /* FavouriteThingsFour.swift in Sources */,
 				FE2241012720611700EC7D77 /* FavouriteThingsApp.swift in Sources */,
+				FE22411127222D4B00EC7D77 /* FavouriteThingsThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
