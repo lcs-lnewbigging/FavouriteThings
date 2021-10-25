@@ -12,6 +12,7 @@ struct SecondFavouriteView: View {
         return Image("Flowers")
             .resizable()
             .scaledToFit()
+    
     }
 }
 

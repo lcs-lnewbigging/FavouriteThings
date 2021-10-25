@@ -40,6 +40,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE0D4D162727083E00B46E69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE22410E2720652900EC7D77 /* SecondFavouriteView.swift */,
+				FE22411027222D4B00EC7D77 /* FavouriteThingsThree.swift */,
+				FE2241122722357700EC7D77 /* FavouriteThingsFour.swift */,
+				FE2241142722363200EC7D77 /* FavouriteThingsFive.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		FE2240F42720611600EC7D77 = {
 			isa = PBXGroup;
 			children = (
@@ -59,14 +70,11 @@
 		FE2240FF2720611700EC7D77 /* FavouriteThings */ = {
 			isa = PBXGroup;
 			children = (
-				FE2241002720611700EC7D77 /* FavouriteThingsApp.swift */,
 				FE2241022720611700EC7D77 /* ContentView.swift */,
+				FE2241002720611700EC7D77 /* FavouriteThingsApp.swift */,
+				FE0D4D162727083E00B46E69 /* Views */,
 				FE2241042720611B00EC7D77 /* Assets.xcassets */,
 				FE2241062720611B00EC7D77 /* Preview Content */,
-				FE22410E2720652900EC7D77 /* SecondFavouriteView.swift */,
-				FE22411027222D4B00EC7D77 /* FavouriteThingsThree.swift */,
-				FE2241122722357700EC7D77 /* FavouriteThingsFour.swift */,
-				FE2241142722363200EC7D77 /* FavouriteThingsFive.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FavouriteThings/Preview Content\"";
+				DEVELOPMENT_TEAM = VQT5YPYTPZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FavouriteThings/Preview Content\"";
+				DEVELOPMENT_TEAM = VQT5YPYTPZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

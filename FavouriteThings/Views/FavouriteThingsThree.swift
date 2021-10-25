@@ -9,14 +9,23 @@ import SwiftUI
 
 struct FavouriteThingsThree: View {
     var body: some View {
-        Image("VallyPicture")
-            .resizable()
-            .scaledToFit()
+       
+        VStack{
+            
+            Image("VallyPicture")
+                .resizable()
+                .scaledToFit()
+            
+            Text("This is the valley out side my house")
+            Spacer()
+                .padding()
     }
-}
+        .navigationTitle("Vally Picture")
+    }
 
 struct FavouriteThingsThree_Previews: PreviewProvider {
     static var previews: some View {
         FavouriteThingsThree()
     }
+}
 }
