@@ -29,7 +29,7 @@ struct FavouriteThingsListView: View {
         .navigationTitle("My Favourite Things")
     }
     
-}
+}   
 
 struct FavouriteThingsListView_Previews: PreviewProvider {
     static var previews: some View {
